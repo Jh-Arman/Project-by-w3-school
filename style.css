@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+    position: fixed;
+    box-shadow: 0px 2px 5px black;
+    z-index: 1;
+}
+.header a{
+    padding: 20px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    letter-spacing: 4px;
+
+}
+.float-right{
+    float: right;
+    
+}
+.float-right li{
+    display: inline-block;
+    list-style: none;
+   
+}
+.float-right li a{
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+.home-page{
+    margin-bottom: 60px;
+}
+.home-page img{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    
+}
+.home-page p{
+    position: absolute;
+    bottom: 30px;
+    left: 45px;
+    font-size: 35px;
+    letter-spacing: 4px;
+    color: rgb(68, 66, 66);
+}
+.section{
+    width: 80%;
+    margin: auto;
+}
+
+.about-page::after{
+    content: "";
+    display: table;
+    clear: both;
+    
+    
+}
+.about-page{
+    width: 100%;
+    padding-bottom:50px ;
+}
+.img-section{
+    width: 49%;
+    float: left;
+    
+}
+.img-section img{
+    width: 500px;
+    height: 500px;
+    padding-right: 50px;
+    border-radius: 5px;
+    
+}
+
+.text-section{
+    width: 49%;
+    float: left;
+    
+}
+.text-section h2{
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 4px;
+    padding-top: 25px;
+}
+.text-section .gap{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 22px;
+}
+.text-section .good{
+    
+   font-size: 19px;
+}
+.text-section .gray{
+    padding-top: 15px;
+    color: grey;
+    font-size: 19px;
+}
+.menu-page::after{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+.menu-page{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.text-section2{
+    width: 49%;
+    float: left;
+}
+.img-section2{
+    width: 49%;
+    float: left;
+}
+
+.text-section2 h2{
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 4px;
+    padding-top: 25px;
+}
+.text-section2 h5{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    letter-spacing: 4px;
+    font-size: 19px;
+}
+.text-section2 p{
+    color: rgb(76, 74, 74);
+}
+.img-section2 img{
+    width: 100%;
+    height: 600px;
+}
+.contact-page{
+    padding-top: 50px;
+}
+.contact-page h2{
+    font-size: 35px;
+    letter-spacing: 4px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact-page p{
+    padding: 30px 0;
+}
+.contact-page h5{
+    font-size: 20px;
+    color: rgb(37, 74, 37);
+}
+form input[type="text"],
+form input[type="date"]{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+.contact-page form button{
+    margin-top:25px;
+    padding: 8px 15px;
+    background-color: rgb(222, 215, 215);
+    border: none;
+
+}
+.contact-page form button a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: serif;
+}
+.contact-page form button:hover{
+    background-color: rgb(178, 171, 171);
+}
+.footer1{
+    margin-top: 100px;
+    width: 100%;
+    background-color: rgb(222, 215, 215);
+    height: 100px;
+    
+}
+.footer1 footer p{
+    text-align: center;
+    padding-top: 49px;
+
+}
+.footer1 footer a{
+    color: b;
+}
